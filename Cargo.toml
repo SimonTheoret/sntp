@@ -1,0 +1,14 @@
+[package]
+name = "sntp"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+ahash = "0.8.11"
+derive_more = { version = "2.0.1", features = ["full"] }
+thiserror = "2.0.12"
+unicode-segmentation = "1.12.0"
+uuid = { version = "1.16.0", features = ["v4"] }
+
+[dev-dependencies]
+proptest = "1.6.0"
